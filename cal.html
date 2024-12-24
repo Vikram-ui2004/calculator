@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" id="result" disabled aria-label="Calculator display">
+        </div>
+        <div class="buttons">
+            <button class="btn" data-value="C" tabindex="1">C</button>
+            <button class="btn" data-value="←" tabindex="2">&larr;</button>
+            <button class="btn" data-value="%" tabindex="3">%</button>
+            <button class="btn operator" data-value="/" tabindex="4">&divide;</button>
+
+            <button class="btn" data-value="7" tabindex="5">7</button>
+            <button class="btn" data-value="8" tabindex="6">8</button>
+            <button class="btn" data-value="9" tabindex="7">9</button>
+            <button class="btn operator" data-value="*" tabindex="8">&times;</button>
+
+            <button class="btn" data-value="4" tabindex="9">4</button>
+            <button class="btn" data-value="5" tabindex="10">5</button>
+            <button class="btn" data-value="6" tabindex="11">6</button>
+            <button class="btn operator" data-value="-" tabindex="12">&minus;</button>
+
+            <button class="btn" data-value="1" tabindex="13">1</button>
+            <button class="btn" data-value="2" tabindex="14">2</button>
+            <button class="btn" data-value="3" tabindex="15">3</button>
+            <button class="btn operator" data-value="+" tabindex="16">+</button>
+
+            <button class="btn" data-value="0" tabindex="17">0</button>
+            <button class="btn" data-value="." tabindex="18">.</button>
+            <button class="btn" id="equals" data-value="=" tabindex="19">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
